@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    char p[6] = "Mizzou";
+    char *p = "Mizzou";
     p[ 3 ] = 'P';
     printf("%s",p);
 }

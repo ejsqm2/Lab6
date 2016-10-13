@@ -2,8 +2,8 @@
  
 int main()
 {
-    char fileName[20];
-    printf("Specify file name you would like to print to(CTRL+d to quit): \n");
+    char* fileName;
+    printf("Specify file name you would like to print to: \n");
     scanf("%s",&fileName);
  
 
